@@ -109,15 +109,16 @@ color: lightgray;
 .pagecontainercontact{
   text-align: center;
   padding-top: 5vh;
-  height:90vh;
+  height: 40vh;
 }
 .socialmediaicons{
-  height: 10vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .socialmediaicons img{
-  height: 20px;
+  height: 50px;
 }
 
 .socialmediaicons a{
