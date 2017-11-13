@@ -98,9 +98,9 @@ a:active {
 
 }
 .pagecontainer p {
-padding-top: 25vh;
-padding-left: 8vh;
-padding-right: 8vh;
+padding-top: 20vh;
+padding-left: 70vh;
+padding-right: 70vh;
 font-size: 20px;
 color: lightgray;
 
@@ -113,7 +113,7 @@ color: lightgray;
 
 .pagecontainercontact{
   text-align: center;
-  padding-top: 1vh;
+  padding-top: 5vh;
   height: 40vh;
 }
 .socialmediaicons{
@@ -132,10 +132,18 @@ color: lightgray;
 }
 
 /*Rules for Mobile Devices*/
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
   .pagecontainer p {
-  font-size: 36px;
+  font-size: 30px;
   padding-top: 2vh;
+  padding-left: 0;
+  padding-right: 0;
+  }
+  .pagecontainercontact{
+    height: 35vh;
+  }
+  .socialmediaicons{
+    height: 65vh;
   }
 }
 
