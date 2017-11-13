@@ -1,10 +1,11 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: black;
+  background-image: linear-gradient(black, #080221);
 
 }
 
 h2 {
+  /*font-family:;*/
   color: gray;
   text-transform: uppercase;
   font-size: 50px;
@@ -15,6 +16,65 @@ img {
   width: 100%;
   height: auto;
 }
+
+
+.header {
+position: fixed;
+margin-top: 7vh;
+width: 100%;
+display: block;
+opacity: 0.5;
+transition: opacity 0.5s;
+}
+.header:hover{
+  opacity: 1;
+}
+.logoJW {
+  position: relative;
+  margin-left: 5%;
+  float: left;
+  width: 50px;
+  z-index: 2000;
+}
+.logoJW path {
+  fill: gray;
+}
+.logoJW path:hover{
+  fill: white;
+}
+
+.Navi {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
+  margin-right: 5%;
+  text-align:right;              /* Textausrichtung     */
+  font-family: 'Nunito', sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  z-index: 2000;
+}
+
+ul {
+    list-style-type: none;
+}
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+
 .pagecontainervideo video {
   object-fit: cover;
  width:100%;
@@ -30,9 +90,9 @@ img {
 }
 .pagecontainer {
   text-align: center;
-  padding-top: 5vh;;
+  padding-top: 5vh;
   height:100vh;
-  background-color: black;
+  /*background-color: black; */
 
 }
 .pagecontainer p {
@@ -46,27 +106,23 @@ color: lightgray;
   background-color: red;
 }
 
-.row {
-   padding-bottom:30px;
+.pagecontainercontact{
+  text-align: center;
+  padding-top: 5vh;
+  height:90vh;
 }
-
-.work {
-  background:#efefef;
-}
-.text {
-padding:15px;
-}
-.platzhalter {
-  color: gray;
-}
-
-.footer {
+.socialmediaicons{
+  height: 10vh;
   display: flex;
-  padding-bottom: 3vh;
-  bottom: 0;
+  justify-content: center;
 }
-.footer img{
+.socialmediaicons img{
   height: 20px;
+}
+
+.socialmediaicons a{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*Rules for Mobile Devices*/
