@@ -8,8 +8,9 @@ h2 {
   /*font-family:;*/
   color: gray;
   text-transform: uppercase;
-  font-size: 50px;
-  font-weight: 600;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
 img {
@@ -97,6 +98,7 @@ a:active {
 }
 .pagecontainer p {
 padding: 8vh;
+font-size: 28px;
 color: lightgray;
 
 }
@@ -118,12 +120,12 @@ color: lightgray;
   flex-wrap: wrap;
 }
 .socialmediaicons img{
-  height: 50px;
+  height: 100px;
 }
 
 .socialmediaicons a{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 /*Rules for Mobile Devices*/
