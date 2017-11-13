@@ -11,6 +11,7 @@ h2 {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: 5px;
+  margin-bottom: 0px;
 }
 
 img {
@@ -97,7 +98,9 @@ a:active {
 
 }
 .pagecontainer p {
-padding: 8vh;
+padding-top: 25vh;
+padding-left: 8vh;
+padding-right: 8vh;
 font-size: 20px;
 color: lightgray;
 
@@ -110,7 +113,7 @@ color: lightgray;
 
 .pagecontainercontact{
   text-align: center;
-  padding-top: 5vh;
+  padding-top: 1vh;
   height: 40vh;
 }
 .socialmediaicons{
@@ -132,6 +135,7 @@ color: lightgray;
 @media (max-width: 992px) {
   .pagecontainer p {
   font-size: 36px;
+  padding-top: 2vh;
   }
 }
 
