@@ -129,10 +129,9 @@ color: lightgray;
 }
 
 /*Rules for Mobile Devices*/
-@media (min-width: 1200px) {
+@media (max-width: 992px) {
   .pagecontainer p {
-  padding: 16vh;
-
+  font-size: 36px;
   }
 }
 
