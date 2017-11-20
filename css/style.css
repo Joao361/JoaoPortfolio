@@ -11,7 +11,7 @@ h2 {
   font-size: 80px;
   font-weight: bold;
   letter-spacing: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 
 img {
@@ -114,36 +114,35 @@ color: lightgray;
 .pagecontainercontact{
   text-align: center;
   padding-top: 5vh;
-  height: 40vh;
+  height: 30vh;
 }
 .socialmediaicons{
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  height: 70vh;
 }
 .socialmediaicons img{
   height: 60px;
+  width: auto;
+  margin: 20px;
 }
 
-.socialmediaicons a{
-  margin-left: 20%;
-  margin-right: 20%;
+.media {
+  display: flex;
+  justify-content: center;
 }
 
 /*Rules for Mobile Devices*/
 @media (max-width: 1080px) {
   .pagecontainer p {
   font-size: 30px;
-  padding-top: 2vh;
+  padding-top: 5vh;
   padding-left: 0;
   padding-right: 0;
   }
   .pagecontainercontact{
-    height: 35vh;
+    height: 25vh;
   }
   .socialmediaicons{
-    height: 65vh;
+    height: 75vh;
   }
 }
 
