@@ -114,21 +114,23 @@ color: lightgray;
 .pagecontainercontact{
   text-align: center;
   padding-top: 5vh;
-  height: 30vh;
+  height: 40vh;
 }
 .socialmediaicons{
-  height: 70vh;
+  height: 60vh;
 }
 .socialmediaicons img{
   height: 60px;
   width: auto;
-  margin: 20px;
+
+  margin-bottom: 85px;
 }
 
 .media {
   display: flex;
   justify-content: center;
 }
+
 
 /*Rules for Mobile Devices*/
 @media (max-width: 1080px) {
@@ -143,6 +145,11 @@ color: lightgray;
   }
   .socialmediaicons{
     height: 75vh;
+  }
+  .socialmediaicons img{
+    height: 90px;
+    width: auto;
+    margin: 40px;
   }
 }
 
