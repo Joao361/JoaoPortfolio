@@ -132,7 +132,7 @@ color: lightgray;
 }
 
 
-/*.......................Rules for Mobile Devices...............................*/
+/*Rules for Mobile Devices*/
 @media (max-width: 1080px) {
   .pagecontainer p {
   font-size: 30px;
