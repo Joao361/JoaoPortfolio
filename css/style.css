@@ -1,6 +1,6 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-image: linear-gradient(black, #080221);
+  background-color: black;
 
 }
 
@@ -19,7 +19,7 @@ img {
   height: auto;
 }
 
-
+/*.....NAVIGATION HEAD........*/
 .header {
 position: fixed;
 margin-top: 7vh;
@@ -76,7 +76,7 @@ a:active {
     text-decoration: none;
 }
 
-
+/*..........STARTVIDEO.........*/
 .pagecontainervideo video {
   object-fit: cover;
  width:100%;
@@ -91,67 +91,70 @@ a:active {
   /*background-color: blue;*/
 }
 .pagecontainer {
-  text-align: center;
+  text-align: left;
   padding-top: 5vh;
   height:100vh;
   /*background-color: black; */
-
 }
+
+/*........About Me Text.........*/
 .pagecontainer p {
+text-align: left;
 padding-top: 20vh;
-padding-left: 70vh;
-padding-right: 70vh;
-font-size: 20px;
+padding-left: 33vw;
+padding-right: 33vw;
+font-size: 24px;
 color: lightgray;
-
-}
-.pagecontainer2 {
-  align-items: center;
-  height:100vh;
-  background-color: red;
 }
 
+/*..........Contact links........*/
 .pagecontainercontact{
-  text-align: center;
-  padding-top: 5vh;
-  height: 40vh;
+  padding-top: 30vh;
+  height: 100vh;
 }
-.socialmediaicons{
-  height: 60vh;
-}
-.socialmediaicons img{
-  height: 60px;
-  width: auto;
-
-  margin-bottom: 85px;
-}
-
 .media {
-  display: flex;
-  justify-content: center;
+  display: block;
+  margin-left: -15px;
+  margin-right: -15px;
+  text-align: center;
+  padding-bottom: 5vh;
+}
+.media a{
+  font-size: 24px;
 }
 
 
 /*Rules for Mobile Devices*/
 @media (max-width: 1080px) {
+  .header {
+  margin-top: 3vh;
+  }
   .pagecontainer p {
   font-size: 30px;
-  padding-top: 5vh;
-  padding-left: 0;
-  padding-right: 0;
+  padding-top: 18vh;
+  padding-left: 10vw;
+  padding-right: 5vw;
   }
+
+  /*....RESPONSIVE Contact links...*/
   .pagecontainercontact{
-    height: 25vh;
+    align-items: center;
+    padding-top: 22vh;
+    height: 100vh;
   }
-  .socialmediaicons{
-    height: 75vh;
+  .media {
+    padding-bottom: 8vh;
+    padding-left: 8vw;
+    padding-right: 5vw;
   }
-  .socialmediaicons img{
-    height: 90px;
-    width: auto;
-    margin: 40px;
+  .media a{
+    font-size: 30px;
   }
-}
+
+  /*....RESPONSIVE NAVIGATION...*/
+  .Navi {
+    margin-right: 7%;
+  }
 
 @media (max-width: ) {
 
