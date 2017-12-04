@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   background-color: black;
 
 }
@@ -94,7 +94,15 @@ a:active {
   text-align: left;
   padding-top: 5vh;
   height:100vh;
-  /*background-color: black; */
+}
+
+/*........Work.........*/
+.pagecontainerwork {
+  position: relative;
+  z-index: -2000;
+  text-align: left;
+  padding-top: 5vh;
+  height:100vh;
 }
 
 /*........About Me Text.........*/
@@ -104,13 +112,14 @@ padding-top: 20vh;
 padding-left: 33vw;
 padding-right: 33vw;
 font-size: 24px;
+font-weight: 100;
 color: lightgray;
 }
 
 /*..........Contact links........*/
 .pagecontainercontact{
   padding-top: 30vh;
-  height: 100vh;
+  height: 95vh;
 }
 .media {
   display: block;
@@ -121,6 +130,13 @@ color: lightgray;
 }
 .media a{
   font-size: 24px;
+  font-family: 'Nunito', sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+}
+.footer{
+  height: 5vh;
+  text-align: center;
 }
 
 
@@ -131,6 +147,7 @@ color: lightgray;
   }
   .pagecontainer p {
   font-size: 30px;
+  font-weight: 100;
   padding-top: 18vh;
   padding-left: 10vw;
   padding-right: 5vw;
@@ -140,7 +157,6 @@ color: lightgray;
   .pagecontainercontact{
     align-items: center;
     padding-top: 22vh;
-    height: 100vh;
   }
   .media {
     padding-bottom: 8vh;
